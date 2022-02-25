@@ -1,3 +1,4 @@
-console.log(1);
-console.log(1);
-console.log(1);
+import Calendar from "./Calendar";
+
+const aa = new Calendar();
+aa.render();

@@ -1,0 +1,12 @@
+{
+  "name": "vailla-calendar",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^2.8.4"
+  }
+}

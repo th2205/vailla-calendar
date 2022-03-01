@@ -1,3 +1,13 @@
+.title-container {
+  width: 30%;
+  display: flex;
+  padding: 3rem;
+  justify-content: space-between;
+}
+
+.title-container * {
+  font-size: 2rem;
+}
 .calendar-container {
   width: 90%;
   height: 100%;
@@ -34,4 +44,13 @@
 
 .date:hover {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.disabled {
+  color: rgba(0, 0, 0, 0.2);
+  cursor: default;
+}
+
+.disabled:hover {
+  background-color: white;
 }
